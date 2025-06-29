@@ -1,0 +1,46 @@
+# Gradle
+.gradle/
+build/
+!*/src/main/**/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files
+*.jks
+*.keystore
+
+# APKs
+*.apk
+*.ap_*
+
+# Generated files
+captures/
+output.json
+
+# Misc
+*.class
+*.dex
+*.jar
+*.war
+*.ear
+*.hprof
+
+# NDK
+obj/
+
+# VS Code
+.vscode/
